@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    android:background="@drawable/dice"
+    >
+
+
+    <ImageView
+        android:id="@+id/diceImg"
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="50dp"
+        android:contentDescription="@string/imgContD"
+        android:padding="2dp"
+        android:src="@drawable/empty_dice"
+        android:textAlignment="center"
+        tools:ignore="ImageContrastCheck"
+        tools:src="@drawable/empty_dice" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:layout_gravity="center_horizontal"
+        android:foregroundGravity="center"
+        android:gravity="center_horizontal"
+        android:shadowColor="#D21010"
+        android:text="@string/diceText"
+        android:textColor="#FFC107"
+        android:textColorHint="#F30606"
+        android:textSize="34sp"
+        tools:ignore="ExtraText">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/RollButton"
+        android:layout_width="310dp"
+        android:layout_height="105dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="40dp"
+        android:shadowColor="#E87373"
+        android:text="@string/rollDice"
+        android:textAlignment="center"
+        android:textColor="#84F60D"
+        android:textColorHighlight="#E70F0F"
+        android:textColorHint="#0C0B0B"
+        android:textColorLink="#141414"
+        android:textCursorDrawable="@android:drawable/ic_menu_myplaces"
+        android:textDirection="locale"
+        android:textSize="24sp"
+        app:rippleColor="#F44336">
+
+
+    </Button>
+
+</LinearLayout>

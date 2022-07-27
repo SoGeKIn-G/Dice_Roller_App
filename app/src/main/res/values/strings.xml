@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Ludo_DiceRoller_App</string>
+    <string name="rollDice">RollDice</string>
+    <string name="diceText">Dice no. will apear here</string>
+    <string name="imgContD">app Image</string>
+</resources>
